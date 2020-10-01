@@ -75,11 +75,12 @@ p {
 
 .hero__header-image img {
   position: relative;
-  height: 40rem; }
+  height: 40rem;
+  width: 100%; }
 
 .hero__text {
-  top: 18.12rem;
-  left: 20rem;
+  top: 18rem;
+  left: 30rem;
   position: absolute; }
   .hero__text h1 {
     font-size: 3rem;
@@ -112,6 +113,24 @@ p {
   position: absolute;
   top: 7.5rem;
   left: 17rem; }
+
+.about {
+  height: 35rem;
+  width: 100%;
+  background: #EFECE3;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .about__card {
+    background: #FFFFFF;
+    height: 25rem;
+    width: 60%;
+    display: flex;
+    border-radius: 10px; }
+
+.section-title {
+  text-align: center;
+  width: 100%; }
 
 .menu {
   border: 2px solid #7131A0;

@@ -1,0 +1,17 @@
+.about{
+    height: 35rem;
+    width: 100%;
+    background: $grey-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__card {
+        background: $light;
+        height: 25rem;
+        width: 60%;
+        display: flex;
+        border-radius: 10px;
+    }
+    
+}
