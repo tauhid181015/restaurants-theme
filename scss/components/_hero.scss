@@ -1,0 +1,46 @@
+.hero{
+    &__header-image{
+        img{
+            position: relative;
+            height: 40rem;
+        }
+    }
+    &__text{
+        top: 18.12rem;
+        left: 20rem;
+        position: absolute;
+        h1{
+            font-size: 3rem;
+            font-weight: 400; 
+        }  
+    }
+    &__white-text{
+        color: $white;
+    }
+    &__yellow-text{
+        color: $secondary;
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    &__up-text{
+        display: flex;
+    }
+    &__down-text{
+        color: $white;
+        text-align: center;
+        padding-top: 1rem;
+        h2{
+            font-size: 1rem;
+            font-weight: 350;
+        }
+    }
+    &__order-button{
+        background: $secondary;
+        color: $white;
+        padding: map-get($padding, 'small') map-get($padding, 'large');
+        border-radius: 10px;
+        position: absolute;
+        top: 7.5rem;
+        left: 17rem;
+    }
+}

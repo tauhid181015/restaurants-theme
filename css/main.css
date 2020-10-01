@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap");
+.container, .menu__container {
+  width: 80%;
+  max-width: 1140px;
+  margin: auto;
+  height: 100%; }
+
+.mr-sm {
+  margin-right: 0.5rem; }
+
+.mr {
+  margin-right: 1rem; }
+
+.mr-lg {
+  margin-right: 1.5rem; }
+
+.mr-xl {
+  margin-right: 2rem; }
+
+.ml-sm {
+  margin-left: 0.5rem; }
+
+.ml {
+  margin-left: 1rem; }
+
+.ml-lg {
+  margin-left: 1.5rem; }
+
+.ml-xl {
+  margin-left: 2rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600; }
+
+a {
+  text-decoration: none;
+  color: #0B0B0C; }
+
+p {
+  font-size: 1.5rem; }
+
+.alert-info {
+  color: #FFFFFF;
+  background: #7131A0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px; }
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 22px; }
+  .btn-primary {
+    background: #7131A0;
+    color: #FFFFFF; }
+  .btn-secondary {
+    background: #FFC006;
+    color: #FFFFFF; }
+
+.badge {
+  padding: 2px 8px;
+  background: #FFC006;
+  border-radius: 50%;
+  font-weight: 600; }
+
+.hero__header-image img {
+  position: relative;
+  height: 40rem; }
+
+.hero__text {
+  top: 18.12rem;
+  left: 20rem;
+  position: absolute; }
+  .hero__text h1 {
+    font-size: 3rem;
+    font-weight: 400; }
+
+.hero__white-text {
+  color: #FFFFFF; }
+
+.hero__yellow-text {
+  color: #FFC006;
+  padding-left: 20px;
+  flex-direction: column; }
+
+.hero__up-text {
+  display: flex; }
+
+.hero__down-text {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 1rem; }
+  .hero__down-text h2 {
+    font-size: 1rem;
+    font-weight: 350; }
+
+.hero__order-button {
+  background: #FFC006;
+  color: #FFFFFF;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 7.5rem;
+  left: 17rem; }
+
+.menu {
+  border: 2px solid #7131A0;
+  height: 80px; }
+  .menu__container {
+    display: flex;
+    align-items: center; }
+  .menu__logo {
+    flex-grow: 1; }
+    .menu__logo img {
+      height: 50px; }
+  .menu__links {
+    list-style: none;
+    display: flex; }
+  .menu__item a {
+    font-weight: 600;
+    padding: 1.5rem;
+    margin-right: 1.5rem; }
+    .menu__item a:hover {
+      color: #FFC006; }
+  .menu__cart img {
+    height: 20px; }
